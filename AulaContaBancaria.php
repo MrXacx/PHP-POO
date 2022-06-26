@@ -4,7 +4,7 @@ declare (strict_types = 1);
 
 class ContaBancaria{ // Cria classe
 
-    private string $banco = "Santander"; // Atributos da classe
+    public string $banco; // Atributos da classe
     private string $nomeTitular;
     private string $numeroAgencia;
     private string $numeroConta;
@@ -42,6 +42,7 @@ $conta = new ContaBancaria(
 
 // var_dump($conta); // Expõe atributos da classe
 // var_dump($conta -> saldo); // Expõe atributo específico da clasee
+
 
 echo $conta -> obterSaldo(); // Expõe método
 
