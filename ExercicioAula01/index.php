@@ -26,9 +26,7 @@ include "./services/Message.php"; // Pega dados
                 margin: 0;
 
             }
-            
             html{
-                /* background-color: #713E5A; */
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -49,14 +47,12 @@ include "./services/Message.php"; // Pega dados
                 color: #fefefe;
             }
             #forms{
-                /* width: 60%; */
                 height: 100%;
                 border: 2px solide black;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center; 
-                /* background-color: #4E6E58; */
             }
             .icon {
                 width: 150px;
@@ -72,16 +68,11 @@ include "./services/Message.php"; // Pega dados
             .col:nth-child(3){
                 margin-right: 10px;
             }
-            /* Bootstrap */
-
-
         </style>
 
         <h1 class="product">Carrinho de compras</h1>
 
-
         <form id="forms" class="border bg-light" action="services/Service.php" method="get">
-
             <div class="product">
                 <label>Data de entrega: </label>
                 <input class="form-control small" type="date" name="date">
@@ -97,7 +88,6 @@ include "./services/Message.php"; // Pega dados
                         </label>
                         <input class="form-control small" type="text" placeholder="Insira a quantidade" name="tomato">
                     </div>
-
                     <div class="col product">
                         <img class="icon" src="assets/img/potato.jpg" alt="Batata">
                         <label>
@@ -118,11 +108,10 @@ include "./services/Message.php"; // Pega dados
                     </div>
                 </div>
             </div>
-
             <div class="product">
                 <input class="small btn btn-success" type="submit">
             </div>
-            <div class="alert alert-success" >
+            <div class="alert alert-success">
             <?php
             echo obterMessage();
             ?>

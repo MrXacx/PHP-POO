@@ -7,9 +7,6 @@ include "./Venda.php"; // Pega dados
 include "./Message.php"; // Pega dados
 include "./Validacao.php"; // Envia dados
 
-
-//declare(strict_type = 1);
-
 $date = $_GET["date"];
 $amount1 = $_GET["tomato"];
 $amount2 = $_GET["potato"];

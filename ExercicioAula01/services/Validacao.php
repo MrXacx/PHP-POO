@@ -1,5 +1,7 @@
 <?php
-function validaDados ($date, $amount1, $amount2, $amount3){
+declare (strict_type = 1);
+
+function validaDados (string $date, float $amount1, float $amount2, float $amount3) :bool {
     if (empty($date) OR empty($amount1) OR empty($amount2) OR empty($amount3)){
         return false;
     }
