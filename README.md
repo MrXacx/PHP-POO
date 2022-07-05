@@ -11,3 +11,8 @@ Repositório para aula Orientação a objetos, exceções e banco de dados PHP d
 - Criar data atual com classe DateTime()
 - Substrair 5 dias, 10 horas e 50 minutos dessa data
 - Exibir resultado
+
+## Exercício 02.2
+- Criar função divisao() que receba dois números
+- Se um dos valores for 0, lance uma excessão
+- Escreva um algoritimo que trate a exceção
